@@ -12,10 +12,11 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
   return (
     <html lang="en" className="h-full">
-      <body className={`${notoSansThai.variable} antialiased min-h-screen flex flex-col`}>
+      <body
+        className={`${notoSansThai.variable} antialiased min-h-screen flex flex-col`}
+      >
         <div className="flex flex-col lg:flex-row">
           <main className="flex-1">{children}</main>
         </div>
